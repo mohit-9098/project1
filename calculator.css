@@ -1,0 +1,53 @@
+
+ .m1{
+
+    input{
+        /* border: 2px solid blue ; */
+        background-color: rgb(128, 141, 108);
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+ }
+ .m2{
+    display: flex;
+    gap: 28px;
+    div{
+        border: 2px solid ;
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+        font-size: 25px;
+
+    }
+    .p2{
+        .o1{
+            height: 150px;
+            /* align-items: center; */
+            align-content: center;
+            background-color: greenyellow;
+        }
+        .red{
+            background-color: red
+        }
+        .blue{
+            background-color: blue
+        }
+        .white{
+            background-color: whitesmoke
+        }
+    }
+    
+ }
+ 
+ .mm{
+    border: 2px solid;
+    padding: 10px;
+    height: 360px;
+    width: 305px;
+    border-radius: 10px;
+    background-color: rgb(74, 73, 73);
+ }

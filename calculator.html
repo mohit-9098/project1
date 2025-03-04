@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+    <section class="mm">
+    <section class="m1">
+        <input type="text" id="display" class="display">
+    </section>
+    <br>
+    <section class="m2">
+        <div class="p2">
+        
+        <div class="red" onclick="clearinput()">C</div>
+        <br>
+        <div class="white" onclick="takeinput(7)">7</div>
+        <br>
+        <div class="white" onclick="takeinput(4)">4</div>
+        <br>
+        <div class="white" onclick="takeinput(1)">1</div>
+        <br>
+        <div class="white" onclick="takeinput(0)">0</div>
+    </div>
+        <div class="p2">
+            
+        <div class="blue" onclick="takeinput('/')">/</div>
+        <br>
+        <div class="white" onclick="takeinput(8)">8</div>
+        <br>
+        <div class="white" onclick="takeinput(5)">5</div>
+        <br>
+        <div class="white" onclick="takeinput(2)">2</div>
+        <br>
+        <div class="white" onclick="takeinput('.')">.</div>
+    </div>
+        <div class="p2">
+            
+        <div class="blue" onclick="takeinput('*')">*</div>
+        <br>
+        <div class="white" onclick="takeinput(9)">9</div>
+        <br>
+        <div class="white" onclick="takeinput(6)">6</div>
+        <br>
+        <div class="white" onclick="takeinput(3)">3</div>
+        <br>
+        <div class="white" onclick="deletelast()">del</div>
+        <br>
+        
+    </div>
+        <div class="p2">
+            
+        <div class="blue" onclick="takeinput('-')">-</div>
+        <br>
+        <div class="blue" onclick="takeinput('+')">+</div>
+        <br>
+        
+        <div class="o1" onclick="result()">=</div>
+        
+    </div>
+    </section>
+</section>
+<script src="calculator.js"></script>
+</body>
+</html>
